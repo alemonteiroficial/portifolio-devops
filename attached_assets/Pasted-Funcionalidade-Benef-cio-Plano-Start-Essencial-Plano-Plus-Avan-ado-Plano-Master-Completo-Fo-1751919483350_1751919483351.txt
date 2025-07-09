@@ -1,0 +1,51 @@
+Funcionalidade / Benefício	Plano Start (Essencial)	Plano Plus (Avançado)	Plano Master (Completo)
+Foco Principal	Presença Digital Básica e IA no WhatsApp	Canais Digitais Otimizados e Automação de Comunicação	Estratégia Digital Completa e Automação Integrada
+Atendimento AI (Chatbot)			
+Atendimento Automatizado 24/7 (WhatsApp)	✅	✅	✅
+Qualificação de Leads (WhatsApp)	✅	✅	✅
+Agendamento Automatizado (WhatsApp)	✅	✅	✅
+Respostas Imediatas (FAQ)	✅	✅	✅
+Comunicação Personalizada (WhatsApp)	✅	✅	✅
+Relatórios Básicos de Performance do Chatbot	✅	✅	✅
+Webchat no Mini-site	❌	✅	✅
+Integração Facebook Messenger	❌	✅	✅
+Análise de Sentimento (básico)	❌	✅	✅
+Histórico de Conversas (detalhado)	❌	✅	✅
+Integração Instagram DMs	❌	❌	✅
+Outros canais sob demanda	❌	❌	✅
+IA Generativa para criação de conteúdo	❌	❌	✅
+Personalização Profunda com IA	❌	❌	✅
+Criação de Website			
+Mini-site Responsivo Básico	✅	✅	✅
+Até 3 páginas	✅	✅	✅
+Formulário de Contato	✅	✅	✅
+SSL Incluído	✅	✅	✅
+Até 10 páginas	❌	✅	✅
+Blog/Notícias	❌	✅	✅
+Galeria de Imagens/Vídeos	❌	✅	✅
+Design Premium e Customizado	❌	❌	✅
+Integração com E-commerce (catálogo e carrinho completo)	❌	❌	✅
+Gerenciador de Link na Bio	❌	❌	✅
+Sistema de Gestão de Conteúdo (CMS)	❌	❌	✅
+Email Marketing			
+Envio de Email Marketing (básico)	❌	✅	✅
+5 Contas de email corporativo	❌	✅	✅
+Segmentação Avançada de Email	❌	❌	✅
+Automação de Jornadas de Email	❌	❌	✅
+Gestão e Automação			
+Gestão de Leads (via formulários/chat)	❌	✅	✅
+Automação de Fluxos de Comunicação	❌	✅	✅
+Automação de Fluxos de Trabalho (workflows)	❌	❌	✅
+Integração com Ferramentas Externas (via API)	❌	❌	✅
+Relatórios e Insights			
+Relatórios Básicos de Performance do Chatbot	✅	✅	✅
+Relatórios Detalhados de Interação por Canal	❌	✅	✅
+Performance do Website	❌	✅	✅
+Dashboards Personalizados	❌	❌	✅
+Análise Preditiva (básico)	❌	❌	✅
+Insights Estratégicos de Canais Digitais	❌	❌	✅
+Suporte			
+Suporte por Email (SLA Padrão)	✅	✅	✅
+Suporte Prioritário por Email e WhatsApp (SLA Melhorado)	❌	✅	✅
+Suporte Premium 24/7	❌	❌	✅
+Consultoria Estratégica (1 hora/mês)	❌	❌	✅

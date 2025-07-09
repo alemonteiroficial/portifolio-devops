@@ -1,0 +1,159 @@
+0
+
+2025-06-01T01:51:14.098Z [INFO]: # Cloning repository: git@github.com:alemonteiroficial/secode-ia-solutions-web.git
+
+1
+
+2025-06-01T01:51:14.925Z [INFO]: 
+
+2
+
+2025-06-01T01:51:14.926Z [INFO]: Cloning into 'secode-ia-solutions-web'...
+
+3
+
+2025-06-01T01:51:14.926Z [INFO]: # Switching to commit: b15fdf3b05d7150a545c989e52c65f1050a55f75
+
+4
+
+2025-06-01T01:51:14.942Z [INFO]: Note: switching to 'b15fdf3b05d7150a545c989e52c65f1050a55f75'.
+
+5
+
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+
+6
+
+                                 changes and commit them, and you can discard any commits you make in this
+
+7
+
+                                 state without impacting any branches by switching back to a branch.
+
+8
+
+                                 If you want to create a new branch to retain commits you create, you may
+
+9
+
+                                 do so (now or later) by using -c with the switch command. Example:
+
+10
+
+                                 git switch -c <new-branch-name>
+
+11
+
+                                 Or undo this operation with:
+
+12
+
+                                 git switch -
+
+13
+
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+
+14
+
+                                 HEAD is now at b15fdf3 Add files via upload
+
+15
+
+2025-06-01T01:51:14.979Z [INFO]: Successfully cleaned up Git credentials
+
+16
+
+2025-06-01T01:51:14.979Z [INFO]: # Checking for Git submodules at: /codebuild/output/src920224933/src/secode-ia-solutions-web/.gitmodules
+
+17
+
+2025-06-01T01:51:14.986Z [INFO]: # Retrieving environment cache...
+
+18
+
+2025-06-01T01:51:15.062Z [INFO]: # Retrieved environment cache
+
+19
+
+2025-06-01T01:51:15.062Z [INFO]: ---- Setting Up SSM Secrets ----
+
+20
+
+2025-06-01T01:51:15.062Z [INFO]: SSM params {"Path":"/amplify/dy4132nx25vuo/main/","WithDecryption":true}
+
+21
+
+2025-06-01T01:51:15.104Z [WARNING]: !Failed to set up process.env.secrets
+
+22
+
+2025-06-01T01:51:15.748Z [INFO]: # No package override configuration found.
+
+23
+
+2025-06-01T01:51:15.752Z [INFO]: # Retrieving cache...
+
+24
+
+2025-06-01T01:51:19.975Z [INFO]: # Extracting cache...
+
+25
+
+2025-06-01T01:51:26.017Z [INFO]: # Extraction completed
+
+26
+
+2025-06-01T01:51:26.135Z [INFO]: # Retrieved cache
+
+27
+
+2025-06-01T01:51:45.628Z [INFO]: ## Starting Backend Build
+
+28
+
+                                 # Starting phase: build
+
+29
+
+2025-06-01T01:51:47.624Z [INFO]: ⚠️ For new projects, we recommend starting with AWS Amplify Gen 2, our new code-first developer experience. Get started at https://docs.amplify.aws/react/start/quickstart/
+
+30
+
+2025-06-01T01:51:47.624Z [INFO]: [33mNote: It is recommended to run this command from the root of your app directory[39m
+
+31
+
+2025-06-01T01:51:47.624Z [INFO]: [32mThe following configuration will be applied:[39m
+
+32
+
+2025-06-01T01:51:47.624Z [INFO]: [0mProject information[0m
+
+33
+
+                                 [0m| Name: secodeiasolutionsweb[0m
+
+34
+
+                                 [0m| Environment: main[0m
+
+35
+
+2025-06-01T01:51:47.625Z [INFO]: [0m| Default editor: Visual Studio Code[0m
+
+36
+
+2025-06-01T01:51:47.755Z [INFO]: [0m| App type: javascript[0m
+
+37
+
+2025-06-01T01:51:47.756Z [INFO]: [0m| Javascript framework: react[0m
+
+38
+
+2025-06-01T01:51:47.756Z [INFO]: [0m| Source Directory Path: src[0m
+
+39
+
+                                 [0m| Distribution Directory Path: build[0m

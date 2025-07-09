@@ -1,0 +1,84 @@
+Crie um site completo para a Secode no Replit. Este site servirá como a vitrine digital do nosso MVP focado em soluções de canal baseadas em software para pequenos empreendedores, com forte apoio da IA. Além disso, incluirá uma página dedicada aos nossos serviços de outsourcing e body shop. O código gerado deve ser profissional, limpo, organizado, otimizado para conversão e facilmente gerenciável para armazenamento no GitHub e implantação em serviços de hospedagem estática da AWS (ex: S3 + CloudFront).
+1. Estrutura de Páginas do Site:
+O site deve ser construído com uma página principal (index.html) que simula uma SPA (Single Page Application) através de seções bem definidas com links âncora, e uma página separada (outsourcing.html) para os serviços de outsourcing.
+1.1. Página Principal (index.html):
+Cabeçalho (Header):
+Logotipo da Secode: Placeholder de imagem (<img src="[caminho/para/logo.png]" alt="Logo Secode">).
+Menu de Navegação: Links âncora para as seções da página principal (#home, #produtos, #beneficios, #para-quem, #contato) .
+Botão CTA: "Experimente o MVP" ou "Comece Agora", estilizado para ser proeminente.
+Seção Hero (Banner Principal - #home):
+Título Impactante: "Seu Negócio Online e Atendendo 24h: Sem Esforço, Com IA."
+Subtítulo: "Oferecemos mini-sites profissionais com atendimento AI personalizado e agendamento inteligente para pequenos empreendedores."
+CTA Primário: Botão grande e visível: "Experimente o Atendimento AI Grátis" ou "Tenha Seu Mini-Site Agora".
+Elemento Visual: Ilustração moderna e amigável de um celular ou notebook mostrando um mini-site com um chatbot ativo, transmitindo facilidade e tecnologia.
+Seção "Nosso MVP" (ou "Nossa Solução Básica" - #produtos):
+Título: "O que é o Nosso MVP: Presença Digital Essencial."
+Descrição: Breve explicação do mini-site com IA e agendamento como a primeira e fundamental camada de serviço da Secode.
+Recursos Inclusos: Listar com ícones (Font Awesome ou SVGs simples) e descrições curtas e focadas no benefício:
+Mini-Site Profissional: "Sua vitrine online simples e eficaz para atrair e converter clientes."
+Atendimento AI Personalizado: "Chatbot inteligente que entende, responde e interage com seus clientes 24/7."
+Agendamento Inteligente: "Clientes agendam facilmente, você gerencia sem complicação e otimiza seu tempo."
+Elemento Visual: Exemplo visual de como um mini-site com o chatbot integrado se parece em diferentes dispositivos.
+Seção "Benefícios para Você, Empreendedor" (#beneficios):
+Título: "Por que Escolher a Secode para seu Negócio?"
+Benefícios Chave (com ícones Font Awesome ou SVGs simples):
+Mais Tempo Livre: "Deixe a IA cuidar das tarefas repetitivas e foque no crescimento."
+Atendimento 24/7: "Seu negócio nunca fecha, sua IA sempre atende e converte."
+Presença Profissional: "Impressione clientes com um site moderno e funcional, transmitindo credibilidade."
+Foco no Seu Negócio: "Menos burocracia, mais tempo para o que você faz de melhor."
+Clientes Satisfeitos: "Agilidade, informação e conveniência ao alcance dos seus clientes."
+Seção "Para Quem é Isso?" (#para-quem):
+Título: "Ideal para Empreendedores como Você!"
+Lista com Ícones (Font Awesome ou SVGs simples): Salões de beleza, Terapeutas, Consultores, Pet Shops, Professores Particulares, Artesãos, Freelancers, Pequenos Comércios Locais, etc. (ajuda o visitante a se identificar).
+Seção de Depoimentos (Opcional):
+Título: "O que Nossos Clientes Dizem."
+Espaço para 2-3 depoimentos curtos de beta testers ou clientes iniciais, com nome e tipo de negócio (placeholders).
+Seção "Pronto para Transformar Seu Negócio?" (#contato):
+Título: "Comece Agora Sua Jornada Digital com a Secode!"
+CTA Final: Botão proeminente: "Experimente Grátis nosso Atendimento AI e Mini-Site" ou "Solicite sua Solução Personalizada".
+Formulário de Contato Básico: Campos para Nome, E-mail, Mensagem.
+Informações de Contato Adicionais: E-mail e Telefone da Secode (placeholders).
+Rodapé (Footer):
+Informações básicas da Secode (endereço placeholder, e-mail, telefone).
+Links para redes sociais (placeholders).
+Links para Políticas de Privacidade e Termos de Uso (placeholders).
+Copyright.
+
+2. Popup de Chat com IA (integrado em todas as páginas):
+Posição: Fixo no canto inferior direito da tela, discreto e não intrusivo.
+Estado Fechado: Pequeno ícone de balão de fala (Font Awesome ou SVG) com uma mensagem sutil e amigável: "Olá! 👋 Fale com a SecodIA Assistente".
+Estado Aberto: Ao clicar no ícone, expande suavemente para uma janela de chat.
+Cabeçalho: "SecodIA Assistente" ou "Assistente Virtual Secode".
+Mensagem de Boas-Vindas (automática): "Olá! Sou a SecodIA Assistente. Em que posso ajudar você hoje? Posso falar sobre nossos produtos, agendamentos, ou o que precisar sobre a Secode!"
+Área de Mensagens: Exibe o histórico da conversa.
+Campo de Digitação: Input de texto com placeholder "Digite sua pergunta...".
+Botão de Enviar: Ícone de avião de papel ou seta.
+Botão de Fechar: Ícone "X" no canto superior direito da janela.
+Comportamento:
+Aparece alguns segundos após o carregamento da página (ex: 3-5 segundos).
+Utiliza cookies de sessão para não reaparecer na mesma sessão do usuário após ser fechado.
+O estado do chat (aberto/fechado) deve ser mantido ao navegar entre as páginas do site.
+3. Estilo e Design (Global):
+Consistência Visual: Mantenha um visual coeso em todas as páginas e elementos (popup, botões, ícones, fontes, cores, espaçamento) use uma tonalidade futurista em preto e lilas ou roxo.
+Moderno e Limpo: Design minimalista que enfatize a facilidade de uso e a tecnologia.
+Responsividade: O site deve ser totalmente responsivo, funcionando perfeitamente em desktops, tablets e celulares.
+Paleta de Cores: Sugira uma paleta de cores primárias (ex: tons de azul, verde ou roxo para tecnologia/confiança/inovação) e secundárias (ex: cinzas, branco) que transmitam profissionalismo.
+Tipografia: Escolha fontes legíveis e modernas (ex: Inter, Poppins, Montserrat).
+Ícones: Utilize a biblioteca Font Awesome (versão gratuita) para todos os ícones no site e no popup.
+4. Aspectos Técnicos e de Implantação:
+Tecnologias: HTML5, CSS3, JavaScript (para interatividade do popup, rolagem suave para âncoras, e lógica básica de formulário).
+Estrutura de Arquivos:
+index.html (página principal)
+css/style.css (CSS principal)
+js/script.js (JavaScript principal)
+img/ (pasta para placeholders de imagens, ex: logo.png, hero-illustration.png)
+Código Limpo e Modular:
+CSS organizado com seletores claros e classes reutilizáveis.
+JavaScript bem estruturado, com funções separadas para cada funcionalidade (popup, formulário, etc.).
+Comentários Detalhados: Inclua comentários extensivos no HTML, CSS e JavaScript para explicar as diferentes seções, funcionalidades e pontos de integração.
+Placeholders: Use [Nome da Sua Empresa], [Seu E-mail], [Seu Telefone], [Link para Redes Sociais], e textos de preenchimento (Lorem ipsum) para as descrições mais longas.
+Preparação para GitHub: A estrutura de pastas e a organização do código devem facilitar o versionamento e a colaboração.
+Preparação para AWS (Hospedagem Estática): O código gerado deve ser para um site estático, facilmente implantável em serviços como AWS S3 com CloudFront.
+Formulário de Contato: O frontend do formulário deve ser criado. A lógica de envio (que precisaria de um backend) deve ser um placeholder no JS, com um comentário indicando que precisaria de um serviço serverless como AWS Lambda + API Gateway para processar o envio (o Replit não geraria esse backend, apenas o frontend para ele).
+Conexão do Chatbot: A lógica de envio de mensagens do chat para o seu AWS AI Search e o recebimento de respostas será um placeholder no JavaScript, com um comentário explicando que essa comunicação precisaria de um endpoint de API no backend (ex: AWS Lambda + API Gateway interagindo com seu AWS AI Search).
+Por favor, gere o código HTML, CSS e JavaScript para este site completo, incluindo todas as páginas, seções, funcionalidades e considerações técnicas e de design descritas acima.

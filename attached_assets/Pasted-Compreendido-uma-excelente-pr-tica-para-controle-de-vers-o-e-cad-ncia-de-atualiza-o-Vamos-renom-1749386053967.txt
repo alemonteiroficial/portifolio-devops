@@ -1,0 +1,103 @@
+Compreendido! É uma excelente prática para controle de versão e cadência de atualização. Vamos renomear o prompt.
+
+Prompt V1 para Replit: Site Secode (Foco Total em IA)
+Crie uma nova versão do site da Secode no Replit. O site deve ser um single-page application (SPA) na página principal (index.html) com seções âncora, e uma página separada para "Quem Somos". A identidade visual (cores, fontes, estilo geral) deve ser mantida e consistente com a versão anterior.
+
+O objetivo principal é posicionar a Secode como especialista em IA, destacar seus produtos (começando pelo "Digitalize Fácil") e serviços, e garantir que o site seja altamente compreensível e localizável por agentes de IA (GEO - Generative Engineer Optimization), além de ser intuitivo para o usuário humano.
+
+1. Estrutura de Páginas e Conteúdo:
+1.1. Página Principal (index.html): Generalista sobre IA
+Esta página será a porta de entrada para o universo da IA na Secode, com um foco amplo e estratégico.
+
+Cabeçalho (Header):
+Logotipo da Secode: Placeholder de imagem (<img src="[caminho/para/logo.png]" alt="Logo Secode">).
+Menu de Navegação: Links âncora para as seções da página principal (#home, #nossa-visao-ia, #produtos, #contato) e um link direto para /quem-somos.html.
+Botão CTA: "Descubra Nossas Soluções AI", estilizado para ser proeminente e levar para a seção #produtos.
+Seção Hero (Banner Principal - #home):
+Título Impactante: "Revolucione Seu Negócio com a Inteligência Artificial da Secode."
+Subtítulo: "Transformamos desafios em oportunidades com soluções de IA intuitivas e eficazes."
+CTA Primário: Botão grande e visível: "Explore Nossos Produtos AI".
+Elemento Visual: Ilustração abstrata e moderna que represente a convergência de tecnologia, dados e automação impulsionada por IA (ex: nós interconectados, cérebros digitais, dados fluindo). Mantenha as cores da identidade da Secode.
+Seção "Nossa Visão em IA" (#nossa-visao-ia):
+Título: "Como a IA da Secode Transforma Negócios."
+Descrição: Explicação concisa e acessível sobre o que é IA aplicada a negócios e por que ela é indispensável hoje.
+Pilares da Atuação da Secode em IA (com ícones Font Awesome ou SVGs simples):
+Automação Inteligente: "Otimize processos e liberte sua equipe para o estratégico."
+Análise de Dados: "Transforme dados brutos em insights acionáveis para decisões melhores."
+Presença Digital Dinâmica: "Crie canais digitais inteligentes que engajam e convertem."
+Otimização de Experiência: "Personalize a interação com seus clientes em cada ponto de contato."
+Elemento Visual: Gráfico ou ilustração que represente o impacto positivo da IA em um negócio.
+Seção "Nossos Produtos AI" (#produtos):
+Título: "Soluções de IA Desenvolvidas Para Você."
+Introdução: Breve parágrafo sobre como os produtos da Secode são projetados para resolver problemas específicos de negócios com o poder da IA.
+Cards de Produtos:
+Produto 1: "Digitalize Fácil: Mini-Site + Atendimento AI + Agendamento"
+Título do Card: "Digitalize Fácil: Sua Presença Online Completa com IA."
+Breve Descrição: "Tenha um mini-site profissional, atendimento 24/7 com IA personalizada e agendamento inteligente, tudo em uma solução intuitiva para pequenos empreendedores."
+Ícone/Ilustração: Pequena imagem que remeta a um site/celular com chatbot.
+Botão CTA: "Saiba Mais e Experimente!" (levará para a seção detalhada desse produto na própria página de produtos ou para uma nova página específica).
+Placeholder para Outros Produtos Futuros: Estrutura para 2-3 cards adicionais (ex: "Gestão Inteligente com IA", "Marketing Digital AI", etc.).
+Seção "Depoimentos" (Opcional):
+Título: "O que Nossos Clientes Dizem."
+Espaço para 2-3 depoimentos curtos (placeholders).
+Seção "Pronto para Inovar?" (#contato):
+Título: "Converse com Nossos Especialistas em IA."
+CTA Final: Botão proeminente: "Agende uma Demonstração Gratuita" ou "Fale Conosco".
+Formulário de Contato Básico (Nome, E-mail, Mensagem).
+Informações de Contato Adicionais (e-mail, telefone da Secode - placeholders).
+Rodapé (Footer):
+Manter Existente: Esta funcionalidade não precisa de alterações.
+1.2. Página "Produtos" (Seção Ancorada na index.html):
+O conteúdo do "Digitalize Fácil" será uma seção ancorada (id="digitalize-facil") na própria index.html, logo após a seção #produtos. O botão "Saiba Mais" do card do produto apontará para ela.
+Título: "Digitalize Fácil: Detalhes da Solução."
+Conteúdo Detalhado:
+Reutilize e adapte as seções da antiga index.html: "Nosso MVP", "Benefícios para Você, Empreendedor", "Para Quem é Isso?".
+Ajuste a linguagem para se referir ao "Digitalize Fácil" como um produto específico.
+CTAs específicas para o produto: "Experimente Grátis o Digitalize Fácil", "Quero Meu Mini-Site com IA!".
+1.3. Página "Quem Somos" (quem-somos.html):
+Título Principal: "Secode: Inovação e Expertise em IA e Tecnologia."
+Conteúdo: Missão, Visão, Valores da Secode. Breve história. Foco na paixão por tecnologia e transformação de negócios através da IA e soluções de código.
+CTA: "Junte-se a Nós" (se houver vagas) ou "Converse com a Secode".
+2. Popup de Chat com IA (SecodIA Assistente):
+Manter Existente: Esta funcionalidade não precisa de alterações.
+3. Estilo e Design (Manutenção da Identidade):
+Consistência Visual: Crucial: Mantenha a paleta de cores, tipografia, estilo de ícones (Font Awesome ou SVGs simples), espaçamento e design geral da Secode já estabelecidos. Se a identidade anterior usava roxo e preto, continue com isso. O fundo deve ser sempre uma cor clara.
+Moderno e Limpo: Design minimalista que enfatize a facilidade de uso e a tecnologia.
+Responsividade: Essencial para funcionar perfeitamente em desktops, tablets e celulares, prevenindo scroll horizontal.
+Elementos Gráficos: Utilize ilustrações e ícones que complementem a estética da Secode.
+Linguagem: Clara, direta, empática. Fale a "língua" do empreendedor e do profissional de TI, sem jargões desnecessários, mas com autoridade.
+4. Otimização para Agentes de IA (GEO - Generative Engineer Optimization):
+Este é um requisito CRÍTICO para todas as páginas e o conteúdo.
+
+HTML Semântico Rigoroso:
+Use <header>, <nav>, <main>, <section>, <article>, <footer>, <aside> corretamente.
+Hierarquia de títulos (<h1> a <h6>) lógica e consistente em todas as páginas.
+Listas (<ul>, <ol>), parágrafos (<p>) e outros elementos textuais formatados corretamente.
+Dados Estruturados (Schema.org / JSON-LD):
+Inclua blocos <script type="application/ld+json"> no <head> de cada página relevante.
+index.html: Schema Organization (para Secode) e WebPage (para a Home).
+Seção "Produtos" (ou /produtos.html): Schema CollectionPage ou WebPage com hasPart apontando para Product schemas.
+Para "Digitalize Fácil" (seção ou página dedicada): Schema Product (com name, description, slogan, offers com PriceSpecification ou Offer, category, image, url, brand).
+/quem-somos.html: Schema AboutPage.
+Detalhes: Utilize propriedades como description, name, image, url, hasOffer, serviceType, knowsAbout, brand para fornecer informações explícitas.
+Conteúdo Explícito e Contextualizado:
+Definições Claras: Defina acrônimos (IA, MVP, LLM) na primeira menção em cada página.
+Relação Problema -> Solução -> Benefício: Cada serviço/produto deve deixar claro qual problema ele resolve e qual o valor que entrega.
+Terminologia de IA: Incorpore termos relevantes para agentes de IA e engenheiros (ex: "Large Language Models", "Generative AI applications", "AI-powered automation", "LLM orchestration").
+Navegação e Links Descritivos:
+Garanta que todos os links de navegação e CTAs tenham texto descritivo e significativo para crawlers e usuários.
+Atributos alt para Imagens: Essencial para todas as tags <img>.
+Velocidade do Site: O código deve ser otimizado para carregamento rápido.
+5. Aspectos Técnicos e de Implantação:
+Tecnologias: HTML5, CSS3 (com Tailwind CSS via CDN), JavaScript (para interatividade do popup, rolagem suave para âncoras, e lógica básica de formulário).
+Estrutura de Arquivos:
+index.html (página principal)
+quem-somos.html (página quem somos)
+css/style.css (CSS principal)
+js/script.js (JavaScript principal)
+img/ (pasta para placeholders de imagens, ex: logo.png, ilustrações).
+Código Limpo e Modular:
+CSS organizado, JavaScript bem estruturado com funções para cada funcionalidade.
+Comentários Detalhados: Inclua comentários extensivos no HTML, CSS e JavaScript para explicar as seções, funcionalidades e pontos de integração.
+Placeholders: Use [Nome da Sua Empresa], [Seu E-mail], [Seu Telefone], [Link para Redes Sociais], e textos de preenchimento (Lorem ipsum).
+Preparação para GitHub e AWS: O código gerado deve ser para um site estático, facilmente implantável em serviços como AWS S3 com CloudFront. A lógica de envio de formulários e a comunicação real do chatbot com APIs de IA serão placeholders no JS, com comentários indicando a necessidade de serviços serverless (ex: AWS Lambda + API Gateway).

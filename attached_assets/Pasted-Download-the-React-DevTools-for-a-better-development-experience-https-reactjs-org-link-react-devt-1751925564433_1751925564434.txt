@@ -1,0 +1,61 @@
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+6react_jsx-dev-runtime.js?v=41006dc8:64 Warning: Invalid prop `data-replit-metadata` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+    at DigitalizeComparacao (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/src/pages/digitalize-comparacao.tsx:148:43)
+    at Route (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:323:16)
+    at Switch (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:379:17)
+    at Router
+    at Provider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YZ3WIYG7.js?v=41006dc8:42:15)
+    at TooltipProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=41006dc8:52:5)
+    at QueryClientProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=41006dc8:2805:3)
+    at App
+printWarning @ react_jsx-dev-runtime.js?v=41006dc8:64Understand this error
+digitalize-comparacao.tsx:151 Testimonials array: Array(6)0: {name: 'Maria Silva', role: 'Salão de Beleza', image: 'https://images.unsplash.com/photo-1580489944761-15…6?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'Depois da Secode, meu salão nunca mais perdeu um c…de atendimento. A IA responde tudo perfeitamente!'}1: {name: 'João Santos', role: 'Consultor Financeiro', image: 'https://images.unsplash.com/photo-1472099645785-56…e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'A presença digital que eu precisava! Agora tenho mais tempo para focar nas consultorias.'}2: {name: 'Ana Costa', role: 'Terapeuta Holística', image: 'https://images.unsplash.com/photo-1438761681033-64…0?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'Incrível como a solução da Secode entende perfeitamente o que meus clientes precisam.'}3: {name: 'Dr. Carlos Lima', role: 'Dentista', image: 'https://images.unsplash.com/photo-1612349317150-e4…d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'Meu consultório agora funciona 24h! A IA agenda co…ultas mesmo de madrugada. Triplicou minha agenda!'}4: {name: 'Dra. Fernanda Oliveira', role: 'Biomédica Esteta', image: 'https://images.unsplash.com/photo-1559839734-2b71e…2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'A automação revolucionou minha clínica. Agendament…, orçamentos e follow-up funcionam perfeitamente!'}5: {name: 'Roberto Mendes', role: 'Barbeiro', image: 'https://images.unsplash.com/photo-1507003211169-0a…d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100', quote: 'Minha barbearia virou referência! O site e a IA capturam clientes o tempo todo. Melhor investimento!'}length: 6[[Prototype]]: Array(0)
+digitalize-comparacao.tsx:152 Current testimonial index: 0
+digitalize-comparacao.tsx:157 Changing from 0 to 1
+6react_jsx-dev-runtime.js?v=41006dc8:64 Warning: Invalid prop `data-replit-metadata` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+    at DigitalizeComparacao (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/src/pages/digitalize-comparacao.tsx:148:43)
+    at Route (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:323:16)
+    at Switch (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:379:17)
+    at Router
+    at Provider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YZ3WIYG7.js?v=41006dc8:42:15)
+    at TooltipProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=41006dc8:52:5)
+    at QueryClientProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=41006dc8:2805:3)
+    at App
+printWarning @ react_jsx-dev-runtime.js?v=41006dc8:64Understand this error
+digitalize-comparacao.tsx:157 Changing from 1 to 2
+6digitalize-comparacao.tsx:254 Warning: Invalid prop `data-replit-metadata` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+    at DigitalizeComparacao (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/src/pages/digitalize-comparacao.tsx:148:43)
+    at Route (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:323:16)
+    at Switch (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:379:17)
+    at Router
+    at Provider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YZ3WIYG7.js?v=41006dc8:42:15)
+    at TooltipProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=41006dc8:52:5)
+    at QueryClientProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=41006dc8:2805:3)
+    at App
+printWarning @ react_jsx-dev-runtime.js?v=41006dc8:64
+error @ react_jsx-dev-runtime.js?v=41006dc8:48
+validateFragmentProps @ react_jsx-dev-runtime.js?v=41006dc8:796
+jsxWithValidation @ react_jsx-dev-runtime.js?v=41006dc8:874
+(anonymous) @ digitalize-comparacao.tsx:254
+DigitalizeComparacao @ digitalize-comparacao.tsx:253
+renderWithHooks @ chunk-RPCDYKBN.js?v=41006dc8:11548
+updateFunctionComponent @ chunk-RPCDYKBN.js?v=41006dc8:14582
+beginWork @ chunk-RPCDYKBN.js?v=41006dc8:15924
+beginWork$1 @ chunk-RPCDYKBN.js?v=41006dc8:19753
+performUnitOfWork @ chunk-RPCDYKBN.js?v=41006dc8:19198
+workLoopSync @ chunk-RPCDYKBN.js?v=41006dc8:19137
+renderRootSync @ chunk-RPCDYKBN.js?v=41006dc8:19116
+performConcurrentWorkOnRoot @ chunk-RPCDYKBN.js?v=41006dc8:18678
+workLoop @ chunk-RPCDYKBN.js?v=41006dc8:197
+flushWork @ chunk-RPCDYKBN.js?v=41006dc8:176
+performWorkUntilDeadline @ chunk-RPCDYKBN.js?v=41006dc8:384Understand this error
+digitalize-comparacao.tsx:157 Changing from 2 to 3
+6digitalize-comparacao.tsx:254 Warning: Invalid prop `data-replit-metadata` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+    at DigitalizeComparacao (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/src/pages/digitalize-comparacao.tsx:148:43)
+    at Route (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:323:16)
+    at Switch (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=41006dc8:379:17)
+    at Router
+    at Provider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-YZ3WIYG7.js?v=41006dc8:42:15)
+    at TooltipProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=41006dc8:52:5)
+    at QueryClientProvider (https://20e07556-05c9-42e5-819c-639f72add946-00-i64yg6vb2zno.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=41006dc8:2805:3)
+    at App

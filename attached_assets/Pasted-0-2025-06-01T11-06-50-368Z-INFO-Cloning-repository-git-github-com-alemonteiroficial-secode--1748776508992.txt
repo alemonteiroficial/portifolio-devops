@@ -1,0 +1,159 @@
+0
+
+2025-06-01T11:06:50.368Z [INFO]: # Cloning repository: git@github.com:alemonteiroficial/secode-ia-solutions-web.git
+
+1
+
+2025-06-01T11:06:51.246Z [INFO]: 
+
+2
+
+2025-06-01T11:06:51.246Z [INFO]: Cloning into 'secode-ia-solutions-web'...
+
+3
+
+2025-06-01T11:06:51.247Z [INFO]: # Switching to commit: 3bb1b702510e3737dac363e0913af64f723d4ed4
+
+4
+
+2025-06-01T11:06:51.263Z [INFO]: Note: switching to '3bb1b702510e3737dac363e0913af64f723d4ed4'.
+
+5
+
+                                 You are in 'detached HEAD' state. You can look around, make experimental
+
+6
+
+                                 changes and commit them, and you can discard any commits you make in this
+
+7
+
+                                 state without impacting any branches by switching back to a branch.
+
+8
+
+                                 If you want to create a new branch to retain commits you create, you may
+
+9
+
+                                 do so (now or later) by using -c with the switch command. Example:
+
+10
+
+                                 git switch -c <new-branch-name>
+
+11
+
+                                 Or undo this operation with:
+
+12
+
+                                 git switch -
+
+13
+
+                                 Turn off this advice by setting config variable advice.detachedHead to false
+
+14
+
+                                 HEAD is now at 3bb1b70 Adicionando pacotes com a configuração do Lambda
+
+15
+
+2025-06-01T11:06:51.303Z [INFO]: Successfully cleaned up Git credentials
+
+16
+
+2025-06-01T11:06:51.304Z [INFO]: # Checking for Git submodules at: /codebuild/output/src3459097884/src/secode-ia-solutions-web/.gitmodules
+
+17
+
+2025-06-01T11:06:51.311Z [INFO]: # Retrieving environment cache...
+
+18
+
+2025-06-01T11:06:51.383Z [INFO]: # Retrieved environment cache
+
+19
+
+2025-06-01T11:06:51.383Z [INFO]: ---- Setting Up SSM Secrets ----
+
+20
+
+2025-06-01T11:06:51.383Z [INFO]: SSM params {"Path":"/amplify/dy4132nx25vuo/main/","WithDecryption":true}
+
+21
+
+2025-06-01T11:06:51.433Z [WARNING]: !Failed to set up process.env.secrets
+
+22
+
+2025-06-01T11:06:52.050Z [INFO]: # No package override configuration found.
+
+23
+
+2025-06-01T11:06:52.054Z [INFO]: # Retrieving cache...
+
+24
+
+2025-06-01T11:06:56.620Z [INFO]: # Extracting cache...
+
+25
+
+2025-06-01T11:07:03.346Z [INFO]: # Extraction completed
+
+26
+
+2025-06-01T11:07:03.500Z [INFO]: # Retrieved cache
+
+27
+
+2025-06-01T11:07:07.813Z [INFO]: ## Starting Backend Build
+
+28
+
+                                 ## Checking for associated backend environment...
+
+29
+
+                                 ## No backend environment association found, continuing...
+
+30
+
+                                 ## Completed Backend Build
+
+31
+
+2025-06-01T11:07:07.820Z [INFO]: ## Starting Frontend Build
+
+32
+
+                                 # Starting phase: preBuild
+
+33
+
+                                 # Executing command: npm ci
+
+34
+
+2025-06-01T11:07:25.900Z [WARNING]: npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+35
+
+2025-06-01T11:07:26.025Z [WARNING]: npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+
+36
+
+2025-06-01T11:07:26.151Z [WARNING]: npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+
+37
+
+2025-06-01T11:07:26.161Z [WARNING]: npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+38
+
+2025-06-01T11:07:26.191Z [WARNING]: npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+
+39
+
+2025-06-01T11:07:41.676Z [INFO]: added 515 packages, and audited 516 packages in 30s
