@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B46C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333EA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#0F172A"/>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Arquitetura da Aplicação Secode
+  </text>
+
+  <!-- Frontend Section -->
+  <rect x="50" y="80" width="300" height="200" rx="10" fill="url(#purpleGradient)" filter="url(#shadow)"/>
+  <text x="200" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">FRONTEND</text>
+  
+  <!-- React Components -->
+  <rect x="70" y="120" width="120" height="30" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="130" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11">React.js + Vite</text>
+  
+  <rect x="210" y="120" width="120" height="30" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="270" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11">TailwindCSS</text>
+  
+  <rect x="70" y="160" width="120" height="30" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="130" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11">shadcn/ui</text>
+  
+  <rect x="210" y="160" width="120" height="30" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="270" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11">Wouter Router</text>
+  
+  <rect x="70" y="200" width="260" height="30" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="200" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11">Chat Popup + Contact Form + Landing Page</text>
+  
+  <rect x="140" y="240" width="120" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="200" y="257" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Responsive Design</text>
+
+  <!-- AWS Amplify -->
+  <rect x="450" y="80" width="250" height="120" rx="10" fill="url(#blueGradient)" filter="url(#shadow)"/>
+  <text x="575" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AWS AMPLIFY</text>
+  
+  <rect x="470" y="120" width="100" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="520" y="137" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Static Hosting</text>
+  
+  <rect x="580" y="120" width="100" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="630" y="137" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Auto Deploy</text>
+  
+  <rect x="470" y="155" width="210" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="575" y="172" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Environment Variables (API URLs)</text>
+
+  <!-- AWS Lambda Functions -->
+  <rect x="450" y="240" width="250" height="160" rx="10" fill="#FF9500" filter="url(#shadow)"/>
+  <text x="575" y="265" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AWS LAMBDA</text>
+  
+  <!-- Chat API -->
+  <rect x="470" y="280" width="100" height="50" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="520" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Chat API</text>
+  <text x="520" y="315" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">secode-chat-api</text>
+  
+  <!-- Contact API -->
+  <rect x="580" y="280" width="100" height="50" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="630" y="300" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Contact API</text>
+  <text x="630" y="315" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">secode-contact-api</text>
+  
+  <!-- Lambda Config -->
+  <rect x="470" y="340" width="210" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="575" y="357" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Timeout: 30s | Runtime: Node.js 18</text>
+  
+  <rect x="470" y="370" width="210" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="575" y="387" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Native fetch() | CORS configured</text>
+
+  <!-- API Gateway -->
+  <rect x="750" y="240" width="200" height="100" rx="10" fill="#232F3E" filter="url(#shadow)"/>
+  <text x="850" y="265" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">API GATEWAY</text>
+  
+  <rect x="770" y="280" width="160" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="850" y="297" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">REST API</text>
+  
+  <rect x="770" y="310" width="160" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="850" y="327" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">/chat + /contact endpoints</text>
+
+  <!-- OpenAI -->
+  <rect x="750" y="80" width="200" height="120" rx="10" fill="#00A67E" filter="url(#shadow)"/>
+  <text x="850" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">OPENAI API</text>
+  
+  <rect x="770" y="120" width="160" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="850" y="137" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GPT-4o Model</text>
+  
+  <rect x="770" y="150" width="160" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="850" y="167" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">max_tokens: 150</text>
+  
+  <rect x="770" y="180" width="160" height="15" rx="3" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="850" y="190" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9">SecodIA Assistant</text>
+
+  <!-- User -->
+  <circle cx="200" cy="500" r="50" fill="url(#purpleGradient)" filter="url(#shadow)"/>
+  <text x="200" y="510" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">USUÁRIO</text>
+  
+  <!-- Domain -->
+  <rect x="450" y="450" width="250" height="80" rx="10" fill="#1E293B" filter="url(#shadow)"/>
+  <text x="575" y="475" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">DOMÍNIO</text>
+  <text x="575" y="495" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">secode.com.br</text>
+  <text x="575" y="515" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">AWS Route 53 + CloudFront CDN</text>
+
+  <!-- Development Environment -->
+  <rect x="50" y="320" width="300" height="120" rx="10" fill="#374151" filter="url(#shadow)"/>
+  <text x="200" y="345" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">DESENVOLVIMENTO</text>
+  
+  <rect x="70" y="360" width="120" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="130" y="377" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Replit IDE</text>
+  
+  <rect x="210" y="360" width="120" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="270" y="377" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">GitHub Sync</text>
+  
+  <rect x="70" y="395" width="120" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="130" y="412" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">TypeScript</text>
+  
+  <rect x="210" y="395" width="120" height="25" rx="5" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="1"/>
+  <text x="270" y="412" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Hot Reload</text>
+
+  <!-- Data Flow -->
+  <rect x="750" y="450" width="200" height="80" rx="10" fill="#7C3AED" filter="url(#shadow)"/>
+  <text x="850" y="475" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">FLUXO DE DADOS</text>
+  <text x="850" y="495" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">1. Chat → Lambda → OpenAI</text>
+  <text x="850" y="510" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">2. Contact → Lambda → Logs</text>
+
+  <!-- Arrows -->
+  <!-- User to Frontend -->
+  <line x1="250" y1="500" x2="350" y2="180" stroke="#10B981" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Frontend to Amplify -->
+  <line x1="350" y1="140" x2="450" y2="140" stroke="#10B981" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Amplify to Lambda -->
+  <line x1="575" y1="200" x2="575" y2="240" stroke="#10B981" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Lambda to API Gateway -->
+  <line x1="700" y1="320" x2="750" y2="290" stroke="#10B981" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Chat Lambda to OpenAI -->
+  <line x1="520" y1="280" x2="750" y2="140" stroke="#EF4444" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Domain to User -->
+  <line x1="450" y1="490" x2="250" y2="490" stroke="#3B82F6" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10B981" />
+    </marker>
+  </defs>
+
+  <!-- Legend -->
+  <rect x="50" y="580" width="900" height="180" rx="10" fill="rgba(30, 41, 59, 0.8)" stroke="rgba(148, 163, 184, 0.3)" stroke-width="1"/>
+  <text x="500" y="605" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TECNOLOGIAS E CONFIGURAÇÕES</text>
+  
+  <!-- Tech Stack -->
+  <text x="70" y="630" fill="#10B981" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Frontend:</text>
+  <text x="70" y="645" fill="white" font-family="Arial, sans-serif" font-size="10">• React.js + TypeScript + Vite</text>
+  <text x="70" y="660" fill="white" font-family="Arial, sans-serif" font-size="10">• TailwindCSS + shadcn/ui components</text>
+  <text x="70" y="675" fill="white" font-family="Arial, sans-serif" font-size="10">• Wouter routing + React Query</text>
+  <text x="70" y="690" fill="white" font-family="Arial, sans-serif" font-size="10">• Responsive design (mobile-first)</text>
+  
+  <text x="320" y="630" fill="#3B82F6" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Backend:</text>
+  <text x="320" y="645" fill="white" font-family="Arial, sans-serif" font-size="10">• AWS Lambda (Node.js 18)</text>
+  <text x="320" y="660" fill="white" font-family="Arial, sans-serif" font-size="10">• API Gateway REST endpoints</text>
+  <text x="320" y="675" fill="white" font-family="Arial, sans-serif" font-size="10">• Native fetch() API calls</text>
+  <text x="320" y="690" fill="white" font-family="Arial, sans-serif" font-size="10">• CORS wildcard configuration</text>
+  
+  <text x="570" y="630" fill="#EF4444" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AI Integration:</text>
+  <text x="570" y="645" fill="white" font-family="Arial, sans-serif" font-size="10">• OpenAI GPT-4o model</text>
+  <text x="570" y="660" fill="white" font-family="Arial, sans-serif" font-size="10">• 30-second Lambda timeout</text>
+  <text x="570" y="675" fill="white" font-family="Arial, sans-serif" font-size="10">• Custom SecodIA assistant prompt</text>
+  <text x="570" y="690" fill="white" font-family="Arial, sans-serif" font-size="10">• Portuguese language responses</text>
+  
+  <text x="770" y="630" fill="#F59E0B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Deployment:</text>
+  <text x="770" y="645" fill="white" font-family="Arial, sans-serif" font-size="10">• AWS Amplify static hosting</text>
+  <text x="770" y="660" fill="white" font-family="Arial, sans-serif" font-size="10">• Auto-deploy from Replit</text>
+  <text x="770" y="675" fill="white" font-family="Arial, sans-serif" font-size="10">• Environment variables config</text>
+  <text x="770" y="690" fill="white" font-family="Arial, sans-serif" font-size="10">• SSL certificate + CDN</text>
+
+  <!-- URLs -->
+  <text x="70" y="720" fill="#C084FC" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Endpoints:</text>
+  <text x="70" y="735" fill="white" font-family="Arial, sans-serif" font-size="9">• Frontend: https://secode.com.br</text>
+  <text x="70" y="750" fill="white" font-family="Arial, sans-serif" font-size="9">• API: https://0e4rk8qzpf.execute-api.us-east-1.amazonaws.com/prod</text>
+</svg>
